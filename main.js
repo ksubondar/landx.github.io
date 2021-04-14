@@ -21,6 +21,7 @@ $(document).ready(function () {
                 $(this).removeAttr("style"); 
               }
             });
+            $(".burger-nav ul").css("transition", "0.3s");
             $(".burger-nav ul").css("display", "flex");
             $('.burger-nav ul li').on('click', function () {
               $('.burger-nav ul').hide(100, function(){
