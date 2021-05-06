@@ -6,7 +6,22 @@ $(document).ready(function () {
         speed:3000,
         slidesToShow: 3,
   slidesToScroll: 2,
-  variableWidth: true
+  variableWidth: true,
+        
+        responsive: [
+        {
+            breakpoint: 1025,
+                settings: {
+                    slidesToShow:2 
+                }
+        },
+        {
+            breakpoint: 601,
+                settings: {
+                    slidesToShow:1
+                }
+        },
+    ]
     });
     
     if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
