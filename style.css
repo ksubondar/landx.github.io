@@ -208,8 +208,8 @@ display: flex;
   padding: 10px 15px;
   cursor: pointer;
   display: none;
-  width: 25px;
-  height: 25px;
+  width: 30px;
+  height: 30px;
   cursor: pointer;
   }
   .burger-nav ul{
@@ -262,8 +262,8 @@ position: relative;
 right: 5px;
     top: 20px;
 z-index: 100;
-width: 25px;
-height: 25px;
+width: 30px;
+height: 30px;
 cursor: pointer;
 }
 .icon.active {
